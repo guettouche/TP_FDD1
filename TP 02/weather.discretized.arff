@@ -1,0 +1,23 @@
+@relation weather-weka.filters.unsupervised.attribute.NumericToNominal-R3-weka.filters.unsupervised.attribute.MakeIndicator-C3-V5-10-N
+
+@attribute outlook {sunny,overcast,rainy}
+@attribute temperature numeric
+@attribute humidity {low-medium,high}
+@attribute windy {TRUE,FALSE}
+@attribute play {yes,no}
+
+@data
+sunny,85,high,FALSE,no
+sunny,80,high,TRUE,no
+overcast,83,high,FALSE,yes
+rainy,70,high,FALSE,yes
+rainy,68,low-medium,FALSE,yes
+rainy,65,low-medium,TRUE,no
+overcast,64,low-medium,TRUE,yes
+sunny,72,high,FALSE,no
+sunny,69,low-medium,FALSE,yes
+rainy,75,low-medium,FALSE,yes
+sunny,75,low-medium,TRUE,yes
+overcast,72,high,TRUE,yes
+overcast,81,low-medium,FALSE,yes
+rainy,71,high,TRUE,no
